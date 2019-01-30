@@ -1,0 +1,25 @@
+---
+---
+
+$header-bg-color: rgb(57, 81, 117);
+$header-bg-color-secondary: rgb(83, 60, 146);
+$section-headings-color: rgb(1, 24, 128);
+
+@import "{{ site.theme }}";
+
+.thumbnail:hover {
+  position:relative;
+  width:100%;
+  height:auto;
+  display:block;
+  z-index:999;
+}
+
+p {
+  text-align: justify;
+  color: rgb(34, 34, 34);
+}
+
+table {
+  display: table !important;
+}
