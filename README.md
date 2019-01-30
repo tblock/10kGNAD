@@ -1,6 +1,6 @@
 
 This page introduces the 10k German News Articles Dataset (10kGNAD) german topic classification dataset. 
-The 10kGNAD is based on the [One Million Posts Corpus](https://ofai.github.io/million-post-corpus/) and avalaible under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You can download the dataset [here](github.com/tblock/).
+The 10kGNAD is based on the [One Million Posts Corpus](https://ofai.github.io/million-post-corpus/) and avalaible under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You can download the dataset [here](https://github.com/tblock/10kGNAD).
 
 
 ## Why a German dataset? 
@@ -63,9 +63,9 @@ The table below shows an overview of the train-test-split.
 
 ## Code
 
-Python scripts to extract the articles and split them into a train- and a testset avaliable in the [code directory]() of this project.
-Make sure to install the [requirements](link.to.requirements).
-The original `corpus.sqlite3` is required to extract the articles (download compressed [here](https://github.com/OFAI/million-post-corpus/releases/download/v1.0.0/million_post_corpus.tar.bz2) or [direcly here](link.to.dataset)).
+Python scripts to extract the articles and split them into a train- and a testset avaliable in the [code directory](https://github.com/tblock/10kGNAD/tree/master/code) of this project.
+Make sure to install the [requirements](https://github.com/tblock/10kGNAD/blob/master/requirements.txt).
+The original `corpus.sqlite3` is required to extract the articles (download and uncompress [here](https://github.com/OFAI/million-post-corpus/releases/download/v1.0.0/million_post_corpus.tar.bz2).
 
 
 
