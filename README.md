@@ -1,3 +1,4 @@
+[](https://tblock.github.io/10kGNAD/structured_data_dataset_info.json)
 
 This page introduces the 10k German News Articles Dataset (10kGNAD) german topic classification dataset. 
 The 10kGNAD is based on the [One Million Posts Corpus](https://ofai.github.io/million-post-corpus/) and avalaible under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). You can download the dataset [here](https://github.com/tblock/10kGNAD).
