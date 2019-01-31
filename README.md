@@ -12,9 +12,9 @@ Non-english datasets, especially German datasets, are less common.
 There is a [collection](https://sites.google.com/site/iggsahome/downloads) of sentiment analysis datasets assembled by the Interest Group on German Sentiment Analysis. 
 However, to my knowlege, no german topic classification dataset is avaliable to the public.  
 
-Due to grammatical differences between the English and the German language, a classifyer might be effective on a English dataset, but not as effectiv on a German dataset.
+Due to grammatical differences between the English and the German language, a classifier might be effective on a English dataset, but not as effectiv on a German dataset.
 The German language has a higher inflection and long compound words are quite common compared to the English language. 
-One would need to evaluate a classifyer on multiple German datasets to get a sense of it's effectivness.
+One would need to evaluate a classifier on multiple German datasets to get a sense of it's effectivness.
 
 ## The dataset 
 
@@ -26,7 +26,7 @@ In the [One Million Posts Corpus](https://ofai.github.io/million-post-corpus/) e
 The 10kGNAD uses the second part of the topic path, here `Wirtschaft`, as class label.
 In result the dataset can be used for multi-class classification.
 
-I created and used this dataset in my thesis to train and evaluate four text classifyers on the German language.
+I created and used this dataset in my thesis to train and evaluate four text classifiers on the German language.
 By publishing the dataset I hope to support the advancement of tools and models for the German language.
 Additionally this dataset can be used as a benchmark dataset for german topic classification.  
 
