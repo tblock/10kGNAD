@@ -1,0 +1,2 @@
+https://tblock.github.io/10kGNAD/index.html
+https://tblock.github.io/10kGNAD/structured_data_dataset_info.json
