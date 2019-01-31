@@ -25,7 +25,7 @@ In the [One Million Posts Corpus](https://ofai.github.io/million-post-corpus/) e
 The 10kGNAD uses the second part of the topic path, here `Wirtschaft`, as class label.
 In result the dataset can be used for multi-class classification.
 
-I created and used this dataset in my [thesis](link.to.my.thesis) to train and evaluate four text classifyers on the German language.
+I created and used this dataset in my thesis to train and evaluate four text classifyers on the German language.
 By publishing the dataset I hope to support the advancement of tools and models for the German language.
 Additionally this dataset can be used as a benchmark dataset for german topic classification.  
 
@@ -65,7 +65,7 @@ The table below shows an overview of the train-test-split.
 
 Python scripts to extract the articles and split them into a train- and a testset avaliable in the [code directory](https://github.com/tblock/10kGNAD/tree/master/code) of this project.
 Make sure to install the [requirements](https://github.com/tblock/10kGNAD/blob/master/requirements.txt).
-The original `corpus.sqlite3` is required to extract the articles (download and uncompress [here](https://github.com/OFAI/million-post-corpus/releases/download/v1.0.0/million_post_corpus.tar.bz2).
+The original `corpus.sqlite3` is required to extract the articles (download [here (compressed)](https://github.com/OFAI/million-post-corpus/releases/download/v1.0.0/million_post_corpus.tar.bz2) or [here (uncompressed)](https://github.com/tblock/10kGNAD/releases/download/v1.0/corpus.sqlite3)).
 
 
 
