@@ -77,4 +77,32 @@ The original `corpus.sqlite3` is required to extract the articles (download [her
 This dataset is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 Please consider citing the [authors of the One Million Post Corpus](https://ofai.github.io/million-post-corpus/#citation) if you use the dataset. 
 
-
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org/",
+  "@type":"Dataset",
+  "name":"Ten Thousand German News Articles Dataset",
+  "description":"10kGNAD - A german topic classification dataset.",
+  "url":"https://tblock.github.io/10kGNAD/",
+  "license":"https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "sameAs":"https://github.com/tblock/10kGNAD",
+  "keywords":[
+     "topic classification",
+     "german",
+     "newspaper",
+     "nlp"
+  ],
+  "creator":{
+     "@type":"Person",
+     "name":"Timo Block",
+     "email":"tblock[at]e.mail.de"
+  },
+  "distribution":[
+     {
+        "@type":"DataDownload",
+        "encodingFormat":"CSV",
+        "contentUrl":"https://github.com/tblock/10kGNAD/raw/master/articles.csv"
+     }
+  ]
+}
+</script>
