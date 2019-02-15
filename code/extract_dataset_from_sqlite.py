@@ -8,7 +8,7 @@ This exports the articles from the _One Million Posts Corpus_ and generates a
 CSV file containing a label and the text for each article.
 """
 
-
+import re
 import sys
 import csv
 import sqlite3
@@ -54,10 +54,14 @@ if __name__ == '__main__':
                 for p in text_container.findAll('p'):
                     text += p.text.replace("\n"," ").replace("\t"," ").replace("\"","").replace("'","") + " "
             text = text.strip()
+            
+            # remove article autors
+            for author in re.findall(r"\.\ \(.+,.+2[0-9]+\)", text[-50:]): # some articles have a year of 21015..
+                text = text.replace(author, ".")
 
             # get category from path
             category = path.split("/")[1]
-            sample = [category.encode('utf-8'), description.encode('utf-8') + text.encode('utf-8')]
+            sample = [category, description + text]
 
             # filter empty samples, then write to csv
             if sample[1] != "":
