@@ -27,7 +27,7 @@ In the [One Million Posts Corpus](https://ofai.github.io/million-post-corpus/) e
 The 10kGNAD uses the second part of the topic path, here `Wirtschaft`, as class label.
 The article titles and texts are concatenated into one text and the authors are removed to avoid a keyword like classification on autors frequent in a class. 
 
-I created and used this dataset in my thesis to train and evaluate (four text classifiers)[https://github.com/tblock/thesis-data] on the German language.
+I created and used this dataset in my thesis to train and evaluate [four text classifiers](https://github.com/tblock/thesis-data) on the German language.
 By publishing the dataset I hope to support the advancement of tools and models for the German language.
 Additionally this dataset can be used as a benchmark dataset for german topic classification.  
 
@@ -40,8 +40,8 @@ However articles from the *Web* class have on average the fewest words, while ar
 See below for a detailed overview over the class size.
 
 <center>
-![Articles per class](10kGNAD_articles_per_class.png "Articles per class")
-Articles per class
+  ![Articles per class](https://raw.githubusercontent.com/tblock/10kGNAD/gh-pages/10kGNAD_length_per_class.png)
+  Articles per class
 </center>
 
 ### Splitting into train and test
@@ -95,7 +95,7 @@ Please consider citing the [authors of the One Million Post Corpus](https://ofai
   ],
   "creator":{
      "@type":"Person",
-     "name":"Timo Block",
+     "name":"T. Block",
      "email":"tblock[at]e.mail.de"
   },
   "distribution":[
