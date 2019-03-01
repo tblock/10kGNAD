@@ -39,9 +39,10 @@ The biggest class *Web* consists of 1678, while the smallest class *Kultur* cont
 However articles from the *Web* class have on average the fewest words, while articles from the culture class have the second most words.
 See below for a detailed overview over the class size.
 
-<center>
+
   ![Articles per class](https://raw.githubusercontent.com/tblock/10kGNAD/gh-pages/10kGNAD_length_per_class.png)
-  Articles per class
+<center> 
+ Articles per class
 </center>
 
 ### Splitting into train and test
