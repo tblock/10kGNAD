@@ -46,12 +46,8 @@ if __name__ == "__main__":
     with open("articles.csv",  "r", encoding='utf-8',) as csvfile:
         reader = csv.reader(csvfile, delimiter=';', quotechar='\'')
         for row in reader:
-            try:
-                labels.append(row[0])
-                texts.append(row[1])
-            except IndexError as e:
-                print(e)
-                raise
+            labels.append(row[0])
+            texts.append(row[1])
 
     # split dataset
     trn_texts, tst_texts, trn_labels, tst_labels = train_test_split(texts, labels, test_size=SPLIT, random_state=42, stratify=labels)
