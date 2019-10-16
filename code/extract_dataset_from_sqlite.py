@@ -31,7 +31,7 @@ if __name__ == '__main__':
     conn = sqlite3.connect(args.sqlite_file)
     cursor = conn.cursor()
 
-    with open(args.csv_file, "w") as csvfile:
+    with open(args.csv_file, "w", encoding='utf-8', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=';',quotechar='\'', quoting=csv.QUOTE_MINIMAL)
 
         for row in tqdm(cursor.execute(ARTICLE_QUERY).fetchall(), unit_scale=True):

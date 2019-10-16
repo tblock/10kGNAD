@@ -18,7 +18,7 @@ SPLIT = .1
 def write_datasets(data, name, args):
     """ write a csv file in a normal and optinally in the fastText format """
 
-    with open(name + ".csv", "w") as file_write:
+    with open(name + ".csv", "w", encoding='utf-8',) as file_write:
         writer = csv.writer(file_write, delimiter=';', quotechar='\'', quoting=csv.QUOTE_MINIMAL)
         for row in data:
             writer.writerow(row)
@@ -43,7 +43,7 @@ if __name__ == "__main__":
     texts = []
 
     # read full dataset file
-    with open("articles.csv", "r") as csvfile:
+    with open("articles.csv",  "r", encoding='utf-8',) as csvfile:
         reader = csv.reader(csvfile, delimiter=';', quotechar='\'')
         for row in reader:
             labels.append(row[0])
