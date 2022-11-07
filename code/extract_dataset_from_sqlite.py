@@ -46,13 +46,13 @@ if __name__ == '__main__':
             description_obj = soup.find('h2',{'itemprop':'description'})
             if description_obj is not None:
                 description = description_obj.text
-                description = description.replace("\n"," ").replace("\t"," ").strip() + ". "
+                description = description.replace("\n"," ").replace("\t"," ").replace(";",".").strip() + ". "
 
             # get text from paragraphs
             text_container = soup.find('div',{'class':'copytext'})
             if text_container is not None:
                 for p in text_container.findAll('p'):
-                    text += p.text.replace("\n"," ").replace("\t"," ").replace("\"","").replace("'","") + " "
+                    text += p.text.replace("\n"," ").replace("\t"," ").replace("\"","").replace("'","").replace(";",".") + " "
             text = text.strip()
             
             # remove article autors
